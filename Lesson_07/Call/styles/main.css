@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    block-size: border-box;
+}
+
+.box p,
+.container>p {
+    color: red;
+}
+
+.item+span {
+    color: green;
+}
+
+input:checked+p {
+    color: blue;
+}
+
+input[type="text"] {
+    background-color: olive;
+}
+
+a {
+    color: lightcoral;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+a:active {
+    color: lightgreen;
+}
+
+a:visited {
+    color: aqua;
+}

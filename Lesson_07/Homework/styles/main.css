@@ -1,0 +1,101 @@
+/*Reset Css Code*/
+html, body {
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height: 100%;
+    color: #544837;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', Helvetica, sans-serif;
+}
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+}
+button {
+    border: none;
+    background-color: transparent;
+    font-family: inherit;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*Page Wrapper*/
+.page_wrapper {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/*Header*/
+.header_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.header_logo {
+    margin: 22px 320px 24px 143px;
+    width: 187px;
+}
+.header_navigation_list {
+    color: #2F281E;
+    font-size: 14px;
+    margin-top: 24px;
+    margin-bottom: 26px;
+    margin-right: 29px;
+}
+.header_navigation_list a {
+    margin-right: 20px;
+}
+.header_navigation_list a:hover {
+    color: #FF9900;
+}
+.sign_in_button {
+    margin-top: 15px;
+    margin-bottom: 17px;
+    margin-right: 14px;
+    color: #173A56;
+    padding: 11px 22px 11px 25px;
+}
+.sign_up_button {
+    margin-top: 15px;
+    margin-bottom: 17px;
+    background-color: #FF9900;
+    color: #FFFFFF;
+    border-color: transparent;
+    margin-right: 145px;
+    padding: 11px 23px 11px 25px;
+}
+
+/*Hero Section*/
+.hero_section {
+    width: 1126px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-right: 129px;
+    margin-left: 145px;
+}
+.hero_left_side {
+    width: 518px;
+}
+.hero_heading {
+    font-size: 44px;
+    font-weight: 700;
+    color: #2F281E;
+}
+.hero_image {
+    width: 605px;
+}

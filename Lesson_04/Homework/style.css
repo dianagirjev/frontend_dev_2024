@@ -1,0 +1,65 @@
+body {
+    background-color: #F3E5D8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main-box {
+    background-color: white;
+
+    width: 40%;
+
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 40px;
+
+    border-radius: 30px;
+}
+
+.omelette-img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+
+    border-radius: 20px;
+}
+
+.title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.preparation-time-sect {
+    background-color: #FFF7FC;
+    border-radius: 15px;
+}
+
+.prep-time-title {
+    color: rgb(198, 58, 177);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.prep-time-list {
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.ingred-title,
+.instr-title,
+.nutrition-title {
+    font-size: 25px;
+    font-weight: bolder;
+    color: #8A4630;
+}
+
+
+
+.bold-span {
+    font-weight: bold;
+}
