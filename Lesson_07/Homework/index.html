@@ -15,28 +15,37 @@
     <main>
         <div class="page_wrapper">
             <header class="page_header">
-                <div class="header_content">
-                    <a class="header_logo" href="#">
-                        <img src="./assets/img/logo.svg" alt="Productly Logo">
-                    </a>
-                    <nav class="header_navigation_list">
-                        <a href="#">Product</a>
-                        <a href="#">Customers</a>
-                        <a href="#">Pricing</a>
-                        <a href="#">Resources</a>
-                    </nav>
-                    <div class="header_buttons">
-                        <button class="sign_in_button">Sign In</button>
-                        <button class="sign_up_button">Sign Up</button>
+                <div class="header_container">
+                    <div class="header_content">
+                        <a class="header_logo" href="#">
+                            <img src="./assets/img/logo.svg" alt="Productly Logo">
+                        </a>
+                        <div class="header_navigation_container">
+                            <nav class="header_navigation_list">
+                                <a href="#">Product</a>
+                                <a href="#">Customers</a>
+                                <a href="#">Pricing</a>
+                                <a href="#">Resources</a>
+                            </nav>
+                        </div>
+                        <div class="header_buttons">
+                            <button class="sign_in_button">Sign In</button>
+                            <button class="sign_up_button">Sign Up</button>
+                        </div>
                     </div>
                 </div>
             </header>
             <section class="hero_section">
-                <div class="hero_left_side">
+                <div class="hero_container">
                     <h1 class="hero_heading">The Design Thinking superpowers</h1>
                     <p class="hero_paragraph">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
-                    <button class="hero_button_1">Get started</button>
-                    <button class="hero_button_2"><img src="./assets/img/icons/triangle.svg" class="hero_button_2_icon">Watch the Video</button>
+                    <div class="hero_button_container">
+                        <button class="hero_button_1">Get started</button>
+                        <div class="hero_button_2_container">
+                            <img class="hero_triangle_icon" src="./assets/img/icons/triangle.svg">
+                            <button class="hero_button_2">Watch the Video</button>
+                        </div>
+                    </div>
                 </div>
                 <div class="hero_image">
                     <img src="./assets/img/hero.svg" alt="Happy People">

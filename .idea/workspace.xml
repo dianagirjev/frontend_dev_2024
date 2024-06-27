@@ -15,8 +15,7 @@
       <change afterPath="$PROJECT_DIR$/Lesson_07/Homework/assets/img/icons/triangle.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Lesson_07/Homework/assets/img/icons/wave.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Lesson_07/Homework/assets/img/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_07/Homework/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson_07/Homework/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson_07/Homework/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_07/Homework/styles/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
     &quot;JavaScript Debug.index.html (2).executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;&lt;unknown&gt;&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/diana/Programming/Beetroot-Academy/frontend_dev_2024&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
@@ -107,7 +106,7 @@
       <workItem from="1719078012623" duration="797000" />
       <workItem from="1719082847346" duration="6093000" />
       <workItem from="1719247403573" duration="12470000" />
-      <workItem from="1719397310143" duration="2974000" />
+      <workItem from="1719397310143" duration="15676000" />
     </task>
     <servers />
   </component>
