@@ -12,13 +12,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ul, ol {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
 .page_wrapper {
   max-width: 1800px;
   background-image: url("../assets/img/background.png");
-  margin: 15px auto;
+  margin: 0 auto;
+}
+
+.main_container {
+  margin: 15px 15px;
 }
 
 .footer_section {
@@ -70,6 +76,26 @@ ul, ol {
   justify-content: space-between;
 }
 
+.header_logo {
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  letter-spacing: 2.4px;
+  font-size: 24px;
+}
+
+.header_navigation_unordered_list li:not(:last-child) {
+  margin-right: 40px;
+}
+
+.header_navigation_list_item {
+  text-transform: uppercase;
+  font-family: "Aleo", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+}
+
 .how_it_works_section {
   background-image: url("../assets/img/how_it_works_bckg_img.jpg");
   min-height: 340px;
@@ -98,8 +124,6 @@ ul, ol {
 .container {
   width: 100%;
   height: 100%;
-  max-width: 1770px;
-  margin: 0 auto;
   background-repeat: no-repeat;
   background-size: cover;
 }
