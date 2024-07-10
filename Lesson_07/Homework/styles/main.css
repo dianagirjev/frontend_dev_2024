@@ -93,11 +93,13 @@ button {
     justify-content: space-between;
     margin-right: 129px;
     margin-left: 145px;
+    margin-bottom: 110px;
 }
 .hero_container {
     width: 100%;
     max-width: 518px;
     margin-right: 4px;
+
 }
 .hero_heading {
     font-size: 44px;
@@ -163,5 +165,43 @@ button {
     width: 605px;
 }
 
+/*Feature Section*/
+.feature_section {
+    width: 100%;
+    max-width: 2211px;
+}
+.feature_section_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.feature_heading {
+    width: 100%;
+    max-width: 539px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #2F281E;
+    text-align: center;
+}
+.feature_card_container {
+    width: 100%;
+    max-width: 1095px;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+}
+.card_list {
+    display: flex;
+    /*align-items: center;*/
+    /*justify-content: space-between;*/
+}
+.card_list_item {
+    width: 100%;
+    max-width: 240px;
+}
+.card_list_item:not(:last-child) {
+    margin-right: 45px;
+}
 
 

@@ -15,7 +15,6 @@
       <change afterPath="$PROJECT_DIR$/Lesson_07/Homework/assets/img/icons/triangle.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Lesson_07/Homework/assets/img/icons/wave.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Lesson_07/Homework/assets/img/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson_07/Homework/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson_07/Homework/styles/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +47,7 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;JavaScript Debug.index.html (1).executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.index.html (2).executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html (3).executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;&lt;unknown&gt;&quot;,
@@ -68,11 +68,14 @@
       <recent name="D:\diana\Programming\Beetroot-Academy\frontend_dev_2024\Lesson_07\Homework\styles" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
+  <component name="RunManager" selected="JavaScript Debug.index.html (3)">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/frontend_dev_2024/Lesson_07/Homework/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/frontend_dev_2024/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/frontend_dev_2024/Lesson_12/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/frontend_dev/Lesson_07/Homework/index.html" useBuiltInWebServerPort="true">
@@ -80,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (3)" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
@@ -106,7 +110,7 @@
       <workItem from="1719078012623" duration="797000" />
       <workItem from="1719082847346" duration="6093000" />
       <workItem from="1719247403573" duration="12470000" />
-      <workItem from="1719397310143" duration="15676000" />
+      <workItem from="1719397310143" duration="30958000" />
     </task>
     <servers />
   </component>

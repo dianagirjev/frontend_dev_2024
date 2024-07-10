@@ -1,0 +1,43 @@
+.header_section {
+  background-image: url("../assets/img/header_bckg_img.jpg");
+  min-height: 820px;
+  position: relative;
+}
+
+.header_text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 37%;
+  left: 48.5%;
+  transform: translate(-50%, -50%);
+}
+.header_text .header_heading {
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 4.8px;
+}
+.header_text .header_subtext {
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: normal;
+  letter-spacing: 6.82px;
+}
+
+.header_header {
+  background-color: #5474FD;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header_navigation_unordered_list {
+  display: flex;
+  justify-content: space-between;
+}

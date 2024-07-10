@@ -1,0 +1,19 @@
+.box {
+  font-size: 100px;
+  font-family: serif;
+  max-width: 300px;
+  text-align: center;
+  background-color: pink;
+}
+.box:first-child {
+  min-height: 300px;
+}
+
+.page_wrapper {
+  outline: 2px solid black;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: wrap;
+}/*# sourceMappingURL=call.css.map */

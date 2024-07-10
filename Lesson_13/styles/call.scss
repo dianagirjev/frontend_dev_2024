@@ -1,0 +1,25 @@
+.box {
+    font-size: 100px;
+    font-family: serif;
+    max-width: 300px;
+    text-align: center;
+    background-color: pink;
+
+    &:first-child {
+        min-height: 300px;
+    }
+}
+
+// .page_wrapper {
+//     outline: 2px solid black;
+//     margin: 0 auto;
+// }
+
+.page_wrapper {
+    outline: 2px solid black;
+    min-height: 500px;
+    display: flex; //inline-flex
+    justify-content: center; //flex-start, flex-end, center, space-between, space-around MAIN AXIS (default - flex-start)
+    align-items: center; //flex-start, flex-end, center, stretch(default - stretch)
+    flex: wrap; //wrap-reverse, for more elements which are not fitting (default - no-wrap)
+}

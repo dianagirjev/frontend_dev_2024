@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Trickster";
+    src:
+      local("Trickster"),
+      url("trickster-COLRv1.otf") format("opentype") tech(color-COLRv1),
+      url("trickster-outline.otf") format("opentype"),
+      url("trickster-outline.woff") format("woff");
+  }
+
+html {
+    font-size: 20px; //px, rem related to html font size, em
+    color: lightcoral;
+}
+
+@mixin rem($size) {
+    font-size: ($size / 16) * 1rem;
+}
+h1 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+a {
+    display: inline-block; // for inline element we should  use it for setting height and width, also for many elements putting them on one line
+    height: 53px;
+    line-height: 53px;
+    background-color: black;
+    text-decoration: none;
+    color: fuchsia;
+    letter-spacing: 12px;
+}
+.copy_text {
+    font-size: 2rem; //32px
+    @include rem(36);
+    font-style: italic;
+    font-weight: normal; //100 light 400normal 500semibold 600 or 700 bold
+    text-transform: capitalize;
+    font-family: "Poppins", Helvetica, sans-serif; //back-up values, sans-serif /serif browser will apply any font family w
+}
+
+// color
+// font-size
+// font-weight
+// font-style
+// text-decoration
+// text-transform
+
+// line-height
+// letter-spacing
+
+//font-family - web safe fonts: Arial, Verdana, Georgia ...
