@@ -1,0 +1,58 @@
+@import "../base/vars";
+
+.footer_section {
+
+  .form_container {
+    background-color: #11364E;
+    padding-top: 140px;
+    padding-bottom: 140px;
+
+    .form_sections {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .form_heading {
+        color: #FFFFFF;
+        font-size: 38px;
+        font-weight: 400;
+        margin-bottom: 30px;
+        line-height: 1.5;
+        letter-spacing: -0.5px;
+      }
+
+      .form_name {
+        margin-bottom: 40px;
+      }
+
+      .form_email {
+        margin-bottom: 40px;
+      }
+
+      .form_message {
+        margin-bottom: 36px;
+      }
+
+      .form_button {
+        background-color: #FF7F57;
+        padding: 19px 100px;
+        color: #fff;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 1.5;
+        border-radius: 3px;
+      }
+    }
+  }
+
+  .copyright_container {
+    background-color: #13253A;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 1.5;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: center;
+  }
+}

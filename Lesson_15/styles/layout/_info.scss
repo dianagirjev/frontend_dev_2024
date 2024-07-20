@@ -1,0 +1,56 @@
+@import "../base/vars";
+
+.info_section {
+
+  .info_section_container {
+    max-width: 1170px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #13253A;
+
+    .info_section_text_heading {
+      max-width: 370px;
+      font-family: "AvenirNextBold", Arial, sans-serif;
+      font-size: 38px;
+      font-weight: 700;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+
+    .info_section_text_paragraph {
+      max-width: 470px;
+      font-size: 16px;
+      line-height: 1.68;
+      margin-bottom: 20px;
+    }
+
+    .info_section_text_list {
+      max-width: 470px;
+
+      .info_section_text_list_item {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 1.68;
+      }
+
+      .info_section_text_list_item:not(:last-child) {
+        margin-bottom: 12px;
+      }
+
+      .icon-checkmark {
+        color: #FF7F57;
+        width: 16px;
+        height: 16px;
+      }
+
+      .info_section_text_list_item_text {
+        margin-left: 15px;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 1.68;
+      }
+    }
+  }
+}
