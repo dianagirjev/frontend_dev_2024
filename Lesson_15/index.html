@@ -152,12 +152,21 @@
         </section>
         <footer class="footer_section">
             <div class="form_container">
-                <form action="https://jkorpela.fi/cgi-bin/echo.cgi" class="form_sections" target="post">
+                <form action="https://jkorpela.fi/cgi-bin/echo.cgi" class="form_sections" target="_blank" method="post">
                     <h3 class="form_heading">Contact Us</h3>
-                    <input type="text" class="form_name" placeholder="Ram Kaji">
-                    <input type="email" class="form_email" placeholder="hello@lastdoor.store">
-                    <textarea name="" id="" cols="30" rows="10" class="form_message" placeholder="Type your message here..."></textarea>
-                    <button class="form_button">Submit Your Message</button>
+                    <label  class="form_name_container">
+                        <span class="form_name_container_text">Full Name</span>
+                        <input type="text" class="form_name_container_input" name="user_name" placeholder="Ram Kaji" required>
+                    </label>
+                    <label  class="form_email_container">
+                        <span class="form_email_container_text">Your Email Address</span>
+                        <input type="email" class="form_email_container_input" name="user_email" placeholder="hello@lastdoor.store" required>
+                    </label>
+                    <label  class="textarea_container">
+                        <span class="form_textarea_container_text">Your Message</span>
+                        <textarea name="user_message" cols="30" rows="10" class="form_message_container_textarea" placeholder="Type your message here..."></textarea>
+                    </label>
+                    <button class="form_button" type="submit">Submit Your Message</button>
 
                 </form>
             </div>

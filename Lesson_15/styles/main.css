@@ -33,6 +33,21 @@ button {
   border: none;
 }
 
+input, textarea {
+  width: 100%;
+  max-width: 371px;
+  background-color: transparent;
+  border: none;
+  resize: none;
+  color: #FFFFFF;
+}
+input:focus, textarea:focus {
+  outline: none;
+}
+input::after, textarea::after {
+  color: transparent;
+}
+
 .page_wrapper {
   width: 100%;
   max-width: 1440px;
@@ -57,14 +72,33 @@ button {
   line-height: 1.5;
   letter-spacing: -0.5px;
 }
-.footer_section .form_container .form_sections .form_name {
+.footer_section .form_container .form_sections .form_name_container, .footer_section .form_container .form_sections .form_email_container, .footer_section .form_container .form_sections .textarea_container {
+  width: 371px;
   margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
-.footer_section .form_container .form_sections .form_email {
-  margin-bottom: 40px;
+.footer_section .form_container .form_sections .textarea_container {
+  height: 100%;
+  max-height: 120px;
 }
-.footer_section .form_container .form_sections .form_message {
-  margin-bottom: 36px;
+.footer_section .form_container .form_sections .form_name_container_text, .footer_section .form_container .form_sections .form_email_container_text, .footer_section .form_container .form_sections .form_textarea_container_text {
+  color: #FFFFFF;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.footer_section .form_container .form_sections .form_name_container_input, .footer_section .form_container .form_sections .form_email_container_input, .footer_section .form_container .form_sections .form_message_container_textarea {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+.footer_section .form_container .form_sections .form_name_container_input::placeholder, .footer_section .form_container .form_sections .form_email_container_input::placeholder, .footer_section .form_container .form_sections .form_message_container_textarea::placeholder {
+  opacity: 0.6;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 5px;
 }
 .footer_section .form_container .form_sections .form_button {
   background-color: #FF7F57;

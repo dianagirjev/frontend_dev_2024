@@ -36,6 +36,22 @@ button {
   border: none;
 }
 
+input, textarea {
+  width: 100%;
+  max-width: 371px;
+  background-color: transparent;
+  border: none;
+  resize: none;
+  color: #FFFFFF;
+
+  &:focus {
+    outline: none;
+  }
+  &::after {
+    color: transparent;
+  }
+}
+
 .page_wrapper {
   width: 100%;
   max-width: 1440px;
